@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7423F8292C7B0E2600EA42A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7423F8282C7B0E2600EA42A1 /* AppDelegate.swift */; };
+		7423F82B2C7B0E2600EA42A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7423F82A2C7B0E2600EA42A1 /* SceneDelegate.swift */; };
+		7423F82D2C7B0E2600EA42A1 /* AnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7423F82C2C7B0E2600EA42A1 /* AnimationVC.swift */; };
+		7423F8302C7B0E2600EA42A1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7423F82F2C7B0E2600EA42A1 /* Base */; };
+		7423F8322C7B0E2700EA42A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7423F8312C7B0E2700EA42A1 /* Assets.xcassets */; };
+		7423F8352C7B0E2700EA42A1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7423F8342C7B0E2700EA42A1 /* Base */; };
+		7464B5432C87499300135448 /* catch-my-breath-ambient-boy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7464B52D2C87499300135448 /* catch-my-breath-ambient-boy.mp3 */; };
+		7464B5462C87499300135448 /* goodnight-moon-sensho.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7464B5302C87499300135448 /* goodnight-moon-sensho.mp3 */; };
+		7464B5472C87499300135448 /* goodnight-sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7464B5312C87499300135448 /* goodnight-sound.mp3 */; };
+		7464B5482C87499300135448 /* imple-mornings-lloom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7464B5322C87499300135448 /* imple-mornings-lloom.mp3 */; };
+		7464B5492C87499300135448 /* in-stillness-tranquilium.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7464B5332C87499300135448 /* in-stillness-tranquilium.mp3 */; };
+		7464B54A2C87499300135448 /* into-the-night-peter-lainson.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7464B5342C87499300135448 /* into-the-night-peter-lainson.mp3 */; };
+		7464B54B2C87499300135448 /* lapping-water-soft-volo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7464B5352C87499300135448 /* lapping-water-soft-volo.mp3 */; };
+		7464B54C2C87499300135448 /* meadow-ambience-with-stream-and-birds-tomas-herudek.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7464B5362C87499300135448 /* meadow-ambience-with-stream-and-birds-tomas-herudek.mp3 */; };
+		7464B54D2C87499300135448 /* night-in-venice-kevin-macleod.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7464B5372C87499300135448 /* night-in-venice-kevin-macleod.mp3 */; };
+		7464B54E2C87499300135448 /* night-spirit-dope-cat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7464B5382C87499300135448 /* night-spirit-dope-cat.mp3 */; };
+		7464B54F2C87499300135448 /* night-swim-lloom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7464B5392C87499300135448 /* night-swim-lloom.mp3 */; };
+		7464B5502C87499300135448 /* our-goodnight-philip-g-anderson-waterway-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7464B53A2C87499300135448 /* our-goodnight-philip-g-anderson-waterway-music.mp3 */; };
+		7464B5512C87499300135448 /* rain-on-roof-with-birdsong-volo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7464B53B2C87499300135448 /* rain-on-roof-with-birdsong-volo.mp3 */; };
+		7464B5522C87499300135448 /* rain-pouring-hitting-window-weary-pines.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7464B53C2C87499300135448 /* rain-pouring-hitting-window-weary-pines.mp3 */; };
+		7464B5532C87499300135448 /* sanguine-night-drift.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7464B53D2C87499300135448 /* sanguine-night-drift.mp3 */; };
+		7464B5552C87499300135448 /* silent-fields-escape-by-night.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7464B53F2C87499300135448 /* silent-fields-escape-by-night.mp3 */; };
+		7464B5562C87499300135448 /* to-you-peter-lainson.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7464B5402C87499300135448 /* to-you-peter-lainson.mp3 */; };
+		7464B5572C87499300135448 /* wanderlust-justin-lee.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7464B5412C87499300135448 /* wanderlust-justin-lee.mp3 */; };
+		7464B55A2C874B6D00135448 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7464B5592C874B6D00135448 /* UIKit.framework */; };
+		7464B55C2C874BA000135448 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7464B55B2C874BA000135448 /* AVFoundation.framework */; };
+		748AE1D92C85B6D200DC1376 /* SoundSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748AE1D82C85B6D200DC1376 /* SoundSelectionVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7423F8252C7B0E2600EA42A1 /* AnimationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7423F8282C7B0E2600EA42A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7423F82A2C7B0E2600EA42A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7423F82C2C7B0E2600EA42A1 /* AnimationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationVC.swift; sourceTree = "<group>"; };
+		7423F82F2C7B0E2600EA42A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7423F8312C7B0E2700EA42A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7423F8342C7B0E2700EA42A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7423F8362C7B0E2700EA42A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7464B52D2C87499300135448 /* catch-my-breath-ambient-boy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "catch-my-breath-ambient-boy.mp3"; sourceTree = "<group>"; };
+		7464B5302C87499300135448 /* goodnight-moon-sensho.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "goodnight-moon-sensho.mp3"; sourceTree = "<group>"; };
+		7464B5312C87499300135448 /* goodnight-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "goodnight-sound.mp3"; sourceTree = "<group>"; };
+		7464B5322C87499300135448 /* imple-mornings-lloom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "imple-mornings-lloom.mp3"; sourceTree = "<group>"; };
+		7464B5332C87499300135448 /* in-stillness-tranquilium.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "in-stillness-tranquilium.mp3"; sourceTree = "<group>"; };
+		7464B5342C87499300135448 /* into-the-night-peter-lainson.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "into-the-night-peter-lainson.mp3"; sourceTree = "<group>"; };
+		7464B5352C87499300135448 /* lapping-water-soft-volo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "lapping-water-soft-volo.mp3"; sourceTree = "<group>"; };
+		7464B5362C87499300135448 /* meadow-ambience-with-stream-and-birds-tomas-herudek.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "meadow-ambience-with-stream-and-birds-tomas-herudek.mp3"; sourceTree = "<group>"; };
+		7464B5372C87499300135448 /* night-in-venice-kevin-macleod.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "night-in-venice-kevin-macleod.mp3"; sourceTree = "<group>"; };
+		7464B5382C87499300135448 /* night-spirit-dope-cat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "night-spirit-dope-cat.mp3"; sourceTree = "<group>"; };
+		7464B5392C87499300135448 /* night-swim-lloom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "night-swim-lloom.mp3"; sourceTree = "<group>"; };
+		7464B53A2C87499300135448 /* our-goodnight-philip-g-anderson-waterway-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "our-goodnight-philip-g-anderson-waterway-music.mp3"; sourceTree = "<group>"; };
+		7464B53B2C87499300135448 /* rain-on-roof-with-birdsong-volo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "rain-on-roof-with-birdsong-volo.mp3"; sourceTree = "<group>"; };
+		7464B53C2C87499300135448 /* rain-pouring-hitting-window-weary-pines.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "rain-pouring-hitting-window-weary-pines.mp3"; sourceTree = "<group>"; };
+		7464B53D2C87499300135448 /* sanguine-night-drift.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sanguine-night-drift.mp3"; sourceTree = "<group>"; };
+		7464B53F2C87499300135448 /* silent-fields-escape-by-night.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "silent-fields-escape-by-night.mp3"; sourceTree = "<group>"; };
+		7464B5402C87499300135448 /* to-you-peter-lainson.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "to-you-peter-lainson.mp3"; sourceTree = "<group>"; };
+		7464B5412C87499300135448 /* wanderlust-justin-lee.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "wanderlust-justin-lee.mp3"; sourceTree = "<group>"; };
+		7464B5592C874B6D00135448 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7464B55B2C874BA000135448 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		748AE1D82C85B6D200DC1376 /* SoundSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundSelectionVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7423F8222C7B0E2600EA42A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7464B55C2C874BA000135448 /* AVFoundation.framework in Frameworks */,
+				7464B55A2C874B6D00135448 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7423F81C2C7B0E2600EA42A1 = {
+			isa = PBXGroup;
+			children = (
+				7423F8272C7B0E2600EA42A1 /* AnimationApp */,
+				7423F8262C7B0E2600EA42A1 /* Products */,
+				7464B5582C874B6D00135448 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7423F8262C7B0E2600EA42A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7423F8252C7B0E2600EA42A1 /* AnimationApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7423F8272C7B0E2600EA42A1 /* AnimationApp */ = {
+			isa = PBXGroup;
+			children = (
+				7464B5422C87499300135448 /* Sounds */,
+				7423F8282C7B0E2600EA42A1 /* AppDelegate.swift */,
+				7423F82A2C7B0E2600EA42A1 /* SceneDelegate.swift */,
+				7423F82C2C7B0E2600EA42A1 /* AnimationVC.swift */,
+				748AE1D82C85B6D200DC1376 /* SoundSelectionVC.swift */,
+				7423F82E2C7B0E2600EA42A1 /* Main.storyboard */,
+				7423F8312C7B0E2700EA42A1 /* Assets.xcassets */,
+				7423F8332C7B0E2700EA42A1 /* LaunchScreen.storyboard */,
+				7423F8362C7B0E2700EA42A1 /* Info.plist */,
+			);
+			path = AnimationApp;
+			sourceTree = "<group>";
+		};
+		7464B5422C87499300135448 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				7464B52D2C87499300135448 /* catch-my-breath-ambient-boy.mp3 */,
+				7464B5302C87499300135448 /* goodnight-moon-sensho.mp3 */,
+				7464B5312C87499300135448 /* goodnight-sound.mp3 */,
+				7464B5322C87499300135448 /* imple-mornings-lloom.mp3 */,
+				7464B5332C87499300135448 /* in-stillness-tranquilium.mp3 */,
+				7464B5342C87499300135448 /* into-the-night-peter-lainson.mp3 */,
+				7464B5352C87499300135448 /* lapping-water-soft-volo.mp3 */,
+				7464B5362C87499300135448 /* meadow-ambience-with-stream-and-birds-tomas-herudek.mp3 */,
+				7464B5372C87499300135448 /* night-in-venice-kevin-macleod.mp3 */,
+				7464B5382C87499300135448 /* night-spirit-dope-cat.mp3 */,
+				7464B5392C87499300135448 /* night-swim-lloom.mp3 */,
+				7464B53A2C87499300135448 /* our-goodnight-philip-g-anderson-waterway-music.mp3 */,
+				7464B53B2C87499300135448 /* rain-on-roof-with-birdsong-volo.mp3 */,
+				7464B53C2C87499300135448 /* rain-pouring-hitting-window-weary-pines.mp3 */,
+				7464B53D2C87499300135448 /* sanguine-night-drift.mp3 */,
+				7464B53F2C87499300135448 /* silent-fields-escape-by-night.mp3 */,
+				7464B5402C87499300135448 /* to-you-peter-lainson.mp3 */,
+				7464B5412C87499300135448 /* wanderlust-justin-lee.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		7464B5582C874B6D00135448 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7464B55B2C874BA000135448 /* AVFoundation.framework */,
+				7464B5592C874B6D00135448 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7423F8242C7B0E2600EA42A1 /* AnimationApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7423F8392C7B0E2700EA42A1 /* Build configuration list for PBXNativeTarget "AnimationApp" */;
+			buildPhases = (
+				7423F8212C7B0E2600EA42A1 /* Sources */,
+				7423F8222C7B0E2600EA42A1 /* Frameworks */,
+				7423F8232C7B0E2600EA42A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimationApp;
+			productName = AnimationApp;
+			productReference = 7423F8252C7B0E2600EA42A1 /* AnimationApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7423F81D2C7B0E2600EA42A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					7423F8242C7B0E2600EA42A1 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 7423F8202C7B0E2600EA42A1 /* Build configuration list for PBXProject "AnimationApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7423F81C2C7B0E2600EA42A1;
+			productRefGroup = 7423F8262C7B0E2600EA42A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7423F8242C7B0E2600EA42A1 /* AnimationApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7423F8232C7B0E2600EA42A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7464B5472C87499300135448 /* goodnight-sound.mp3 in Resources */,
+				7464B54D2C87499300135448 /* night-in-venice-kevin-macleod.mp3 in Resources */,
+				7464B5572C87499300135448 /* wanderlust-justin-lee.mp3 in Resources */,
+				7464B5502C87499300135448 /* our-goodnight-philip-g-anderson-waterway-music.mp3 in Resources */,
+				7464B5512C87499300135448 /* rain-on-roof-with-birdsong-volo.mp3 in Resources */,
+				7464B54E2C87499300135448 /* night-spirit-dope-cat.mp3 in Resources */,
+				7464B5522C87499300135448 /* rain-pouring-hitting-window-weary-pines.mp3 in Resources */,
+				7464B54A2C87499300135448 /* into-the-night-peter-lainson.mp3 in Resources */,
+				7464B5562C87499300135448 /* to-you-peter-lainson.mp3 in Resources */,
+				7464B54C2C87499300135448 /* meadow-ambience-with-stream-and-birds-tomas-herudek.mp3 in Resources */,
+				7464B5492C87499300135448 /* in-stillness-tranquilium.mp3 in Resources */,
+				7423F8322C7B0E2700EA42A1 /* Assets.xcassets in Resources */,
+				7423F8352C7B0E2700EA42A1 /* Base in Resources */,
+				7464B54B2C87499300135448 /* lapping-water-soft-volo.mp3 in Resources */,
+				7464B54F2C87499300135448 /* night-swim-lloom.mp3 in Resources */,
+				7464B5552C87499300135448 /* silent-fields-escape-by-night.mp3 in Resources */,
+				7423F8302C7B0E2600EA42A1 /* Base in Resources */,
+				7464B5532C87499300135448 /* sanguine-night-drift.mp3 in Resources */,
+				7464B5462C87499300135448 /* goodnight-moon-sensho.mp3 in Resources */,
+				7464B5432C87499300135448 /* catch-my-breath-ambient-boy.mp3 in Resources */,
+				7464B5482C87499300135448 /* imple-mornings-lloom.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7423F8212C7B0E2600EA42A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7423F82D2C7B0E2600EA42A1 /* AnimationVC.swift in Sources */,
+				748AE1D92C85B6D200DC1376 /* SoundSelectionVC.swift in Sources */,
+				7423F8292C7B0E2600EA42A1 /* AppDelegate.swift in Sources */,
+				7423F82B2C7B0E2600EA42A1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7423F82E2C7B0E2600EA42A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7423F82F2C7B0E2600EA42A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7423F8332C7B0E2700EA42A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7423F8342C7B0E2700EA42A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7423F8372C7B0E2700EA42A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7423F8382C7B0E2700EA42A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7423F83A2C7B0E2700EA42A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "AnimationApp/Sounds/lapping-water-soft-volo.mp3 AnimationApp/Sounds/in-stillness-tranquilium.mp3 AnimationApp/Sounds/our-goodnight-philip-g-anderson-waterway-music.mp3 AnimationApp/Sounds/into-the-night-peter-lainson.mp3 AnimationApp/Sounds/night-in-venice-kevin-macleod.mp3 AnimationApp/Sounds/goodnight-moon-sensho.mp3 AnimationApp/Sounds/sea-on-the-road-night-rhodes.wav AnimationApp/Sounds/goodnight-sound.mp3 AnimationApp/Sounds/rain-pouring-hitting-window-weary-pines.mp3 AnimationApp/Sounds/wanderlust-justin-lee.mp3 AnimationApp/Sounds/sanguine-night-drift.mp3 AnimationApp/Sounds/catch-my-breath-ambient-boy.mp3 AnimationApp/Sounds/rain-on-roof-with-birdsong-volo.mp3 AnimationApp/Sounds/night-spirit-dope-cat.mp3 AnimationApp/Sounds/imple-mornings-lloom.mp3 AnimationApp/Sounds/silent-fields-escape-by-night.mp3 AnimationApp/Sounds/meadow-ambience-with-stream-and-birds-tomas-herudek.mp3 AnimationApp/Sounds/to-you-peter-lainson.mp3";
+				DEVELOPMENT_TEAM = DK5ZRJ59H3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnimationApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sleepapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7423F83B2C7B0E2700EA42A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "AnimationApp/Sounds/lapping-water-soft-volo.mp3 AnimationApp/Sounds/in-stillness-tranquilium.mp3 AnimationApp/Sounds/our-goodnight-philip-g-anderson-waterway-music.mp3 AnimationApp/Sounds/into-the-night-peter-lainson.mp3 AnimationApp/Sounds/night-in-venice-kevin-macleod.mp3 AnimationApp/Sounds/goodnight-moon-sensho.mp3 AnimationApp/Sounds/sea-on-the-road-night-rhodes.wav AnimationApp/Sounds/goodnight-sound.mp3 AnimationApp/Sounds/rain-pouring-hitting-window-weary-pines.mp3 AnimationApp/Sounds/wanderlust-justin-lee.mp3 AnimationApp/Sounds/sanguine-night-drift.mp3 AnimationApp/Sounds/catch-my-breath-ambient-boy.mp3 AnimationApp/Sounds/rain-on-roof-with-birdsong-volo.mp3 AnimationApp/Sounds/night-spirit-dope-cat.mp3 AnimationApp/Sounds/imple-mornings-lloom.mp3 AnimationApp/Sounds/silent-fields-escape-by-night.mp3 AnimationApp/Sounds/meadow-ambience-with-stream-and-birds-tomas-herudek.mp3 AnimationApp/Sounds/to-you-peter-lainson.mp3";
+				DEVELOPMENT_TEAM = DK5ZRJ59H3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnimationApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sleepapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7423F8202C7B0E2600EA42A1 /* Build configuration list for PBXProject "AnimationApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7423F8372C7B0E2700EA42A1 /* Debug */,
+				7423F8382C7B0E2700EA42A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7423F8392C7B0E2700EA42A1 /* Build configuration list for PBXNativeTarget "AnimationApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7423F83A2C7B0E2700EA42A1 /* Debug */,
+				7423F83B2C7B0E2700EA42A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7423F81D2C7B0E2600EA42A1 /* Project object */;
+}
